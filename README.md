@@ -11,7 +11,7 @@ Given a string representing shapes and their dimensions, such as:
 side 10 side 900 --> rectangle
 side 100 --> triangle
 side 10 side 10 --> square
-[[side 10 side 900], [side 10]] --> rectangle, square
+[[side 10 side 900], [side 10]] --> rectangle, triangle
 ```
 
 The goal is to parse this input into a structured format: `(ShapeType, double, double)[]`, where `ShapeType` can be `Triangle`, `Square`, or `Rectangle`.
